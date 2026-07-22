@@ -51,10 +51,10 @@ All variants were produced by LLaMEA and are used **exactly as generated**, with
 | 2 | `de_crossover` | DE with adaptive crossover-rate control | NP=100, F=0.8, CR=0.7 |
 | 3 | `de_gradient_boost` | Finite-difference gradient refinement with success-based learning-rate adaptation | NP=100, F=0.8, CR=0.7 |
 | 4 | `de_harmony_search` | DE hybridized with Harmony Search (harmony memory, pitch adjustment, bandwidth decay 0.95) | HMS=20, HMCR=0.9, PAR=0.4, bw=0.5 |
-| 5 | `de_local_search` | DE with gradient-estimation-based local search | NP=30 |
+| 5 | `de_local_search` | DE with gradient-estimation-based local search | NP=100 |
 | 6 | `de_memetic_search` | Memetic DE with finite-difference gradient refinement | internally fixed parameters |
 | 7 | `de_perturbation` | DE with adaptive, gradient-guided perturbation | NP=100, F=0.8, CR=0.7 |
-| 8 | `de_plus` | Success-based self-adaptation of `F` and `CR` (adaptation rate 0.1) | NP=20 |
+| 8 | `de_plus` | Success-based self-adaptation of `F` and `CR` (adaptation rate 0.1) | NP=100 |
 | 9 | `de_pso` | DE–PSO hybrid: random F∈[0.4,0.9], CR∈[0.6,1.0], velocity update (c₁=c₂=1.5, w=0.5) | dynamic population |
 | 10 | `dynamic_pop_v2` | Per-individual F∈[0.5,2.0], CR∈[0.1,1.0] with dynamic population-size adaptation | NP_init=100 |
 
