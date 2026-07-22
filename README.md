@@ -1,1 +1,2 @@
-# LlameaXAI
+# ScAI_Lab
+
