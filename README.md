@@ -125,7 +125,7 @@ ScAI_Lab/
 └── README.md
 ```
 
-> **Current status:** the repository presently contains `STN_data/`, `Flowchart.zip`, and `pseudocode/`. The structure above is the recommended final layout — uploading the algorithm implementations, runners, and result CSVs is what makes the study reproducible, and reviewers of behavioural/explainability papers routinely check for it.
+> **Current status:** the repository presently contains `STN_data/`, `Flowchart.zip`, and `pseudocode/`. The structure above is the recommended final layout uploading the algorithm implementations, runners, and result CSVs is what makes the study reproducible, and reviewers of behavioural/explainability papers routinely check for it.
 
 ---
 
