@@ -267,20 +267,6 @@ A condensed summary; see the paper for full analysis.
 | `STN_data/*.pdf` | 465 STN visualizations (FR and KK layouts); titles report nodes, edges, components |
 | `ioh_data_all/<algo>/` | Raw IOHprofiler logs (`.dat` best-so-far trajectories + `.info` metadata) |
 
----
-
-## Citation
-
-This work builds on the following tools and benchmarks, which should also be cited where appropriate:
-
-- **LLaMEA**
-- **IOHexperimenter**
-- **IOHanalyzer** 
-- **Search Trajectory Networks** 
-- **CEC2022 suite** 
-- **SHAP / TreeSHAP** 
-
----
 
 ## License and Contact
 
