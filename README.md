@@ -34,7 +34,7 @@ This repository implements a four-layer analysis framework addressing that gap:
 |---|---|---|
 | **Generation** | Obtain algorithms without manual design | LLaMEA-generated DE variants |
 | **Benchmarking** | Observe all variants under identical conditions | CEC2022 suite, IOHexperimenter logging |
-| **Performance** | Quantify optimization quality over the full budget | AOCC, ERT, EAF/ECDF, heatmaps, radar profiles |
+| **Performance** | Quantify optimization quality over the full budget | AOCC, ERT, EAF/ECDF, heatmaps |
 | **Explainability** | Explain *why* the differences arise | SHAP (3 levels), Search Trajectory Networks, behavioural metrics |
 
 All analyses are derived from the same logged benchmark data, so performance outcomes, sensitivity structures, and search behaviours can be interpreted jointly.
